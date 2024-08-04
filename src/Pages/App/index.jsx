@@ -11,6 +11,11 @@ function App() {
   return (
     <div className="bg-red-300">
       <Home />
+      <MyAccount />
+      <MyOrder />
+      <MyOrders />
+      <NotFound />
+      <SignIn />
     </div>
   )
 }
