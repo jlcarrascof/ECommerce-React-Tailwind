@@ -9,7 +9,8 @@ import './App.css'
 
 const AppRoutes = () =>{
   let routes = useRoutes([
-    { path: '/', element: <Home /> }
+    { path: '/', element: <Home /> },
+    { path: '/my-orders', element: <MyOrders /> }
   ])
 
   return routes
