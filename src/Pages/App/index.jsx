@@ -15,7 +15,7 @@ const AppRoutes = () =>{
   return routes
 }
 
-function App() {
+const App = () => {
 
   return (
     <div className="bg-red-300">
