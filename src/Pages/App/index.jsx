@@ -7,6 +7,14 @@ import NotFound from '../NotFound'
 import SignIn from '../SignIn'
 import './App.css'
 
+const AppRoutes = () =>{
+  let routes = useRoutes([
+    { path: '/', element: <Home /> }
+  ])
+
+  return routes
+}
+
 function App() {
 
   return (
