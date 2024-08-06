@@ -4,8 +4,8 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li>
-                    <Navlink>
-
+                    <Navlink to='/'>
+                        Shopi
                     </Navlink>
                 </li>
             </ul>
