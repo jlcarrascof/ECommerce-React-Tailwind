@@ -8,6 +8,21 @@ const Navbar = () => {
                         Shopi
                     </Navlink>
                 </li>
+                <li>
+                    <Navlink to='/'>
+                        All
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/'>
+                        Clothes
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/'>
+                        Electronics
+                    </Navlink>
+                </li>
             </ul>
         </nav>
     )
