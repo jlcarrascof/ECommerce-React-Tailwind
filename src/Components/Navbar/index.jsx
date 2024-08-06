@@ -14,27 +14,27 @@ const Navbar = () => {
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <Navlink to='/clothes'>
                         Clothes
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <Navlink to='/electronics'>
                         Electronics
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <Navlink to='/furnitures'>
                         Furnitures
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <Navlink to='/toys'>
                         Toys
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <Navlink to='/others'>
                         Others
                     </Navlink>
                 </li>
