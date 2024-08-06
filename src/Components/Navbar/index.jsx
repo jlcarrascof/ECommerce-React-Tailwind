@@ -23,6 +23,21 @@ const Navbar = () => {
                         Electronics
                     </Navlink>
                 </li>
+                <li>
+                    <Navlink to='/'>
+                        Furnitures
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/'>
+                        Toys
+                    </Navlink>
+                </li>
+                <li>
+                    <Navlink to='/'>
+                        Others
+                    </Navlink>
+                </li>
             </ul>
         </nav>
     )
