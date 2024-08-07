@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center'>
+        <nav className='flex justify-between items-center fixed z-10'>
             <ul className='flex items-center'>
                 <li>
                     <NavLink to='/'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
             </ul>
-            <ul>
+            <ul className='flex items-center'>
                 <li>
                     javier@gmail.com
                 </li>
