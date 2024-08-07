@@ -1,42 +1,43 @@
-import { Navlink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
 const Navbar = () => {
     return (
         <nav>
             <ul>
                 <li>
-                    <Navlink to='/'>
+                    <NavLink to='/'>
                         Shopi
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/'>
+                    <NavLink to='/'>
                         All
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/clothes'>
+                    <NavLink to='/clothes'>
                         Clothes
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/electronics'>
+                    <NavLink to='/electronics'>
                         Electronics
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/furnitures'>
+                    <NavLink to='/furnitures'>
                         Furnitures
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/toys'>
+                    <NavLink to='/toys'>
                         Toys
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/others'>
+                    <NavLink to='/others'>
                         Others
-                    </Navlink>
+                    </NavLink>
                 </li>
             </ul>
             <ul>
@@ -44,19 +45,19 @@ const Navbar = () => {
                     javier@gmail.com
                 </li>
                 <li>
-                    <Navlink to='/my-orders'>
+                    <NavLink to='/my-orders'>
                         My Orders
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/my-account'>
+                    <NavLink to='/my-account'>
                         My Account
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
-                    <Navlink to='/sign-in'>
+                    <NavLink to='/sign-in'>
                         Sign In
-                    </Navlink>
+                    </NavLink>
                 </li>
                 <li>
                     👜 0
