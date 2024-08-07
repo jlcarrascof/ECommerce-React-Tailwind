@@ -2,47 +2,64 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
 
-    let activeStyle = {
-        textDecoration: 'underline'
-    }
+    const activeStyle = 'underline'
 
     return (
         <nav className='flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light'>
             <ul className='flex items-center gap-3'>
                 <li className='font-semibold text-lg'>
-                    <NavLink to='/'
-                        style={({ isActive }) => isActive ? activeStyle : undefined}
+                    <NavLink
+                        to='/'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
                     >
                         Shopi
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/'>
+                    <NavLink
+                        to='/'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         All
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/clothes'>
+                    <NavLink
+                        to='/clothes'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         Clothes
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/electronics'>
+                    <NavLink
+                        to='/electronics'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         Electronics
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/furnitures'>
+                    <NavLink
+                        to='/furnitures'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         Furnitures
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/toys'>
+                    <NavLink
+                        to='/toys'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         Toys
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/others'>
+                    <NavLink
+                        to='/others'
+                        className={({ isActive }) => isActive ? activeStyle : undefined}
+                    >
                         Others
                     </NavLink>
                 </li>
