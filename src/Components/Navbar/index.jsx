@@ -54,24 +54,12 @@ const Navbar = () => {
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/electronics'>
-                        Electronics
+                    <Navlink to='/sign-in'>
+                        Sign In
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/furnitures'>
-                        Furnitures
-                    </Navlink>
-                </li>
-                <li>
-                    <Navlink to='/toys'>
-                        Toys
-                    </Navlink>
-                </li>
-                <li>
-                    <Navlink to='/others'>
-                        Others
-                    </Navlink>
+                    👜 0
                 </li>
             </ul>
         </nav>
