@@ -41,18 +41,16 @@ const Navbar = () => {
             </ul>
             <ul>
                 <li>
-                    <Navlink to='/'>
-                        Shopi
+                    javier@gmail.com
+                </li>
+                <li>
+                    <Navlink to='/my-orders'>
+                        My Orders
                     </Navlink>
                 </li>
                 <li>
-                    <Navlink to='/'>
-                        All
-                    </Navlink>
-                </li>
-                <li>
-                    <Navlink to='/clothes'>
-                        Clothes
+                    <Navlink to='/my-account'>
+                        My Account
                     </Navlink>
                 </li>
                 <li>
