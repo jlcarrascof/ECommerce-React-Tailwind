@@ -90,7 +90,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li>
-                    👜 0
+                    💰 0
                 </li>
             </ul>
         </nav>
