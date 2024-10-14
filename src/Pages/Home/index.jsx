@@ -8,13 +8,18 @@ function Home() {
 
     useEffect(() => {
       fetch('https://api.escuelajs.co/api/v1/products')
-        .then(response => console.log(response.json()))
+        .then(response => response.json())
+        .then(data => setItems(data))
     }, [])
 
     return (
       <Layout>
         Home
-        <Card />
+        {
+          items?.map(() => {
+            <Card />
+          })
+        }
       </Layout>
     )
 }
