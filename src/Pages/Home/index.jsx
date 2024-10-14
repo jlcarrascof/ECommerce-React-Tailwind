@@ -17,7 +17,7 @@ function Home() {
         Home
         {
           items?.map(() => {
-            <Card />
+            return <Card />
           })
         }
       </Layout>
