@@ -16,8 +16,8 @@ function Home() {
       <Layout>
         Home
         {
-          items?.map(() => (
-            <Card />
+          items?.map(item => (
+            <Card key={item.id} data={item} />
           ))
         }
       </Layout>
