@@ -16,9 +16,9 @@ function Home() {
       <Layout>
         Home
         {
-          items?.map(() => {
-            return <Card />
-          })
+          items?.map(() => (
+            <Card />
+          ))
         }
       </Layout>
     )
